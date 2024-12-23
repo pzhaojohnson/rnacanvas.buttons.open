@@ -1,0 +1,37 @@
+.open-button {
+  width: 56px;
+  height: 24px;
+
+  border-radius: 1000px;
+
+  border: 1px solid #a1a1b8;
+  box-shadow: none;
+
+  outline: none;
+
+  background-color: transparent;
+
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+
+  cursor: pointer;
+
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.open-button:hover {
+  border-color: #424252;
+}
+
+.open-button:active {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
